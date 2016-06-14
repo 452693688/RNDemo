@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="40dp"
+        android:background="#f1f1f1"
+        android:id="@+id/main_start_online_tv"
+        android:text="启动在线模式调试"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:minHeight="40dp"
+        android:background="#f1f1f1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/main_start_assets_tv"
+        android:text="启动在assets模式"
+        android:gravity="center"
+        />
+</LinearLayout>
